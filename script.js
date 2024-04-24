@@ -26,7 +26,6 @@ const match=(user, cpu)=>{
     }
 }
 let result=match(user, cpu)
-//console.log("user:${user}<br> cpu:${cpu} <br> The winner is: ${result.toUpperCase}")
 document.write(`<br> user:${user}<br> cpu:${cpu} <br> The winner is: ${result.toUpperCase()}`)
 
 
